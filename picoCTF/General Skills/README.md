@@ -21,14 +21,14 @@
 
 5. First Grep
 
-    - Description:Can you find the flag in [file]()? This would be really tedious to look through manually, something tells me there is a better way.
+    - Description:Can you find the flag in [file](file/First Grep/file)? This would be really tedious to look through manually, something tells me there is a better way.
     
     ``` shell
     strings file | grep "pico"
     ```
     - Flag: `picoCTF{grep_is_good_to_find_things_5af9d829}`
 6. strings it
-    - Description: Can you find the flag in [file]() without running it?
+    - Description: Can you find the flag in [file](file/strings it/strings) without running it?
 
     ``` shell
     strings strings | grep "pico"
@@ -70,7 +70,7 @@
     ```
     - Flag: `picoCTF{digital_plumb3r_5ea1fbd7}`
 10. flag_shop:
-    - Description: There's a flag shop selling stuff, can you buy a flag? [Source](). Connect with nc jupiter.challenges.picoctf.org 9745.
+    - Description: There's a flag shop selling stuff, can you buy a flag? [Source](file/flag_shop/store.c). Connect with nc jupiter.challenges.picoctf.org 9745.
     ```shell
     ┌──(kali㉿kali)-[~/Desktop/Files]
     └─$ nc jupiter.challenges.picoctf.org 9745
@@ -118,6 +118,9 @@
     ```
 
 11. mus1c 
-    - Description: I wrote you a [song](). Put it in the picoCTF{} flag format
+    - Description: I wrote you a [song](file/mus1c/lyrics.txt). Put it in the picoCTF{} flag format
     - There is a language called "[rockstar](https://codewithrockstar.com/online)", run the lyric file as code and we get a series of decimal number, paste to [converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
     - Flag: `picoCTF{rrrocknrn0113r}`
+12. 1_wanna_b3_a_r0ck5tar
+    - Description: I wrote you another [song](file/1_wanna_b3_a_r0ck5tar/lyrics.txt). Put the flag in the picoCTF{} flag format
+    - Flag: `picoCTF{BONJOVI}`
