@@ -33,8 +33,8 @@
 <details>
     <summary> Can you find the flag in <a href="">file</a>? This would be really tedious to look through manually, something tells me there is a better way. </summary>
     <br>
-    ```shell
+    <p>
     strings file | grep "pico"
-    ```
-    - Flag: `picoCTF{grep_is_good_to_find_things_5f0c3d9e}`<br>
+    </p>
+    - Flag: <p style="color: red;">picoCTF{grep_is_good_to_find_things_5f0c3d9e}</p><br>
 </details>
