@@ -21,14 +21,14 @@
 
 5. First Grep
 
-    - Description:Can you find the flag in [file](file/First Grep/file)? This would be really tedious to look through manually, something tells me there is a better way.
+    - Description:Can you find the flag in [file](file/First_Grep/file)? This would be really tedious to look through manually, something tells me there is a better way.
     
     ``` shell
     strings file | grep "pico"
     ```
     - Flag: `picoCTF{grep_is_good_to_find_things_5af9d829}`
 6. strings it
-    - Description: Can you find the flag in [file](file/strings it/strings) without running it?
+    - Description: Can you find the flag in [file](file/strings_it/strings) without running it?
 
     ``` shell
     strings strings | grep "pico"
